@@ -60,6 +60,11 @@
             bindings = <&kp RIGHT_ALT>;
             key-positions = <44 42>;
         };
+
+        right_gui {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <41 44>;
+        };
     };
 
     keymap {
