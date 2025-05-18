@@ -28,6 +28,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        left_control {
+            bindings = <&kp LEFT_CONTROL>;
+            key-positions = <29 30>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
