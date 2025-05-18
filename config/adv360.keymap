@@ -45,6 +45,21 @@
             bindings = <&kp LEFT_GUI>;
             key-positions = <29 32>;
         };
+
+        right_control {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <43 44>;
+        };
+
+        right_control {
+            bindings = <&kp RIGHT_CONTROL>;
+            key-positions = <44 42>;
+        };
+
+        right_alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <44 42>;
+        };
     };
 
     keymap {
