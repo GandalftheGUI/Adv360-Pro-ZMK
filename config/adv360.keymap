@@ -35,6 +35,16 @@
             bindings = <&kp LEFT_CONTROL>;
             key-positions = <29 30>;
         };
+
+        left_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <29 31>;
+        };
+
+        left_gui {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <29 32>;
+        };
     };
 
     keymap {
