@@ -20,7 +20,7 @@
 
         td: tap_dance {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE";
+            label = "Tap dance";
             #binding-cells = <0>;
             bindings = <&none>, <&none>;
         };
@@ -43,7 +43,7 @@
             bindings = <
 &kp EQUAL  &kp N1            &kp N2              &kp N3          &kp N4          &kp N5  &kp LG(LC(LS(NUMBER_4)))                                                                &kp LG(LS(NUMBER_4))  &kp N6  &kp N7           &kp N8           &kp N9               &kp N0                     &kp MINUS
 &kp TAB    &kp Q             &kp W               &kp E           &kp R           &kp T   &mo 3                                                                                   &mo 3                 &kp Y   &kp U            &kp I            &kp O                &kp P                      &kp BSLH
-&kp ESC    &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp CAPSLOCK              &kp ESCAPE  &kp END                &kp LEFT        &kp RIGHT  &kp C_EJECT           &kp H   &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp ESC    &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp CAPSLOCK              &kp ESCAPE  &kp LG(LC(SPACE))      &kp LEFT        &kp RIGHT  &kp C_EJECT           &kp H   &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z             &kp X               &kp C           &kp V           &kp B                                         &kp LG(LS(GRAVE))      &kp UP_ARROW                                     &kp N   &kp M            &kp COMMA        &kp DOT              &kp FSLH                   &kp RSHFT
 &mo 2      &kp GRAVE         &kp LCTRL           &kp LEFT_ALT    &kp LEFT_GUI            &kp BSPC                  &kp DEL     &kp LG(GRAVE)          &kp DOWN_ARROW  &kp ENTER  &kp SPACE                     &kp RIGHT_GUI    &kp RIGHT_ALT    &kp LBKT             &kp RBKT                   &mo 2
             >;
