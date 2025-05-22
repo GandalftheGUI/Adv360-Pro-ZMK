@@ -41,11 +41,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL         &kp N1             &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                                                             &none         &kp N6  &kp N7           &kp N8           &kp N9               &kp N0                     &kp MINUS
-&kp TAB           &kp Q              &kp W               &kp E           &kp R           &kp T   &mo 3                                                                                                             &mo 3         &kp Y   &kp U            &kp I            &kp O                &kp P                      &kp BSLH
-&kp ESC           &hm LEFT_SHIFT A   &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp GRAVE  &kp LS(LG(GRAVE))  &kp LG(GRAVE)                  &kp RS(RG(LEFT_BRACKET))  &kp RS(RG(RIGHT_BRACKET))  &kp CAPSLOCK  &kp H   &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
-&kp LEFT_BRACKET  &kp Z              &kp X               &kp C           &kp V           &kp B                                 &kp RS(RG(LEFT_BRACKET))       &none                                                              &kp N   &kp M            &kp COMMA        &kp DOT              &kp FSLH                   &kp RIGHT_BRACKET
-&mo 2             &kp LG(LS(GRAVE))  &kp LG(GRAVE)       &kp UP_ARROW    &kp DOWN                &kp BSPC   &kp DEL            &kp LS(LG(RIGHT_BRACKET))      &kp LG(LC(SPACE))         &kp ENTER                  &kp SPACE             &kp LEFT         &kp RIGHT        &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &mo 2
+&kp EQUAL         &kp N1             &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                                 &none         &kp N6  &kp N7           &kp N8           &kp N9               &kp N0                     &kp MINUS
+&kp TAB           &kp Q              &kp W               &kp E           &kp R           &kp T   &mo 3                                                                                 &mo 3         &kp Y   &kp U            &kp I            &kp O                &kp P                      &kp BSLH
+&kp ESC           &hm LEFT_SHIFT A   &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp GRAVE  &kp LS(LG(GRAVE))  &kp LG(GRAVE)                  &kp LEFT      &kp RIGHT  &kp CAPSLOCK  &kp H   &hm RIGHT_GUI J  &hm RIGHT_ALT K  &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp LEFT_BRACKET  &kp Z              &kp X               &kp C           &kp V           &kp B                                 &kp RS(RG(LEFT_BRACKET))       &kp UP_ARROW                           &kp N   &kp M            &kp COMMA        &kp DOT              &kp FSLH                   &kp RIGHT_BRACKET
+&mo 2             &kp LG(LS(GRAVE))  &kp LG(GRAVE)       &kp UP_ARROW    &kp DOWN                &kp BSPC   &kp DEL            &kp LS(LG(RIGHT_BRACKET))      &kp DOWN      &kp ENTER  &kp SPACE             &kp LEFT         &kp RIGHT        &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &mo 2
             >;
         };
 
