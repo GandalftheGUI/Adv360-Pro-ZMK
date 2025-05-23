@@ -94,11 +94,11 @@
 
         symbols {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans                &trans                 &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans  &trans  &trans
+&trans          &kp C_BRI_DN  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F11  &kp C_BACKLIGHT_TOGGLE  &bootloader                                      &trans  &trans  &trans                &trans                 &trans  &trans  &trans
+&trans          &trans        &trans                &trans            &trans   &trans                  &trans                                           &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
+&studio_unlock  &trans        &trans                &trans            &trans   &trans                  &trans       &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
+&trans          &trans        &trans                &trans            &trans   &trans                                       &trans      &trans                  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
+&trans          &trans        &trans                &trans            &trans                           &trans       &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans  &trans  &trans
             >;
         };
 
