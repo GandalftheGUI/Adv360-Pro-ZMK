@@ -26,15 +26,6 @@
         };
     };
 
-    macros {
-        mac_show_all_windows: mac_show_all_windows {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LC(UP_ARROW)>;
-            label = "MAC_SHOW_ALL_WINDOWS";
-        };
-    };
-
     combos { compatible = "zmk,combos"; };
 
     keymap {
