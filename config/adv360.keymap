@@ -44,8 +44,8 @@
             display-name = "Base";
             bindings = <
 &kp EQUAL   &kp N1            &kp N2              &kp N3          &kp N4          &kp N5  &none                                                                   &none         &kp N6  &kp N7            &kp N8             &kp N9               &kp N0                     &kp MINUS
-&kp TAB     &kp Q             &kp W               &kp E           &kp R           &kp T   &mo 3                                                                   &mo 3         &kp Y   &kp U             &kp I              &kp O                &kp P                      &kp BSLH
-&kp ESC     &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp RG(RC(SPACE))  &mo 5    &kp LEFT_GUI      &kp RIGHT_GUI  &mo 6      &kp CAPSLOCK  &kp H   &hm RIGHT_GUI J   &hm RIGHT_ALT K    &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp TAB     &kp Q             &kp W               &kp E           &kp R           &kp T   &none                                                                   &none         &kp Y   &kp U             &kp I              &kp O                &kp P                      &kp BSLH
+&kp ESC     &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp RG(RC(SPACE))  &mo 4    &kp LEFT_GUI      &kp RIGHT_GUI  &mo 5      &kp CAPSLOCK  &kp H   &hm RIGHT_GUI J   &hm RIGHT_ALT K    &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
 &kp LSHIFT  &kp Z             &kp X               &kp C           &kp V           &kp B                               &diw              &none                                   &kp N   &kp M             &kp COMMA          &kp DOT              &kp FSLH                   &kp RSHFT
 &mo 2       &none             &none               &none           &kp GRAVE               &kp BSPC           &kp DEL  &none             &none          &kp ENTER  &kp SPACE             &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &mo 2
             >;
@@ -54,7 +54,7 @@
         keypad {
             display-name = "Kp";
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 0      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
 &kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
@@ -65,22 +65,11 @@
         fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 1                                      &mo 0   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
-            >;
-        };
-
-        mod {
-            display-name = "Mod";
-            bindings = <
-&none           &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F11     &bl BL_TOG  &bootloader                                  &bootloader          &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-&none           &none                 &none                 &none             &none       &none       &none                                        &none                &none           &none             &none       &none       &none              &none
-&studio_unlock  &none                 &none                 &none             &none       &none       &none        &none  &none      &none  &none  &kp RG(RA(C_EJECT))  &none           &none             &none       &none       &none              &none
-&none           &none                 &none                 &none             &macro_ver  &none                           &none      &none                              &none           &none             &none       &none       &none              &none
-&none           &none                 &none                 &none             &none                   &none        &none  &none      &none  &none  &none                                &bl BL_INC        &bl BL_DEC  &none       &none              &none
             >;
         };
 
@@ -94,21 +83,21 @@
             >;
         };
 
-        symbols {
+        left_mod {
             bindings = <
-&trans          &kp C_BRI_DN  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F11  &kp C_BACKLIGHT_TOGGLE  &bootloader                                      &trans  &trans  &trans                &trans                 &trans  &trans  &trans
-&trans          &trans        &trans                &trans            &trans   &trans                  &trans                                           &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans  &trans
-&studio_unlock  &trans        &trans                &trans            &trans   &trans                  &trans       &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans  &trans
-&trans          &trans        &trans                &trans            &trans   &trans                                       &trans      &trans                  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans  &trans
-&trans          &trans        &trans                &trans            &trans                           &trans       &trans  &trans      &trans  &trans  &trans          &trans                &trans                 &trans  &trans  &trans
+&trans          &kp C_BRI_DN  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F11  &bl BL_TOG  &bootloader                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans                &trans            &trans   &trans      &trans                                           &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&studio_unlock  &trans        &trans                &trans            &trans   &trans      &trans       &none   &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans                &trans            &trans   &trans                           &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans        &trans                &trans            &trans               &trans       &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
-        arrows {
+        right_mod {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &bootloader          &kp C_PREVIOUS  &kp C_PP        &kp C_NEXT    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans               &trans          &trans          &kp UP_ARROW  &trans      &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LG(LA(C_EJECT))  &trans          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT   &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &none   &kp LG(LA(C_EJECT))  &trans          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT   &trans        &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                               &trans          &trans          &trans        &trans      &trans        &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                               &trans          &trans        &trans      &trans        &trans
             >;
