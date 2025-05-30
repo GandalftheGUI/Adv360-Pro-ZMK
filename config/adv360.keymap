@@ -50,7 +50,7 @@
 &kp TAB     &kp Q             &kp W               &kp E           &kp R           &kp T   &none                                                                   &none                    &kp Y   &kp U             &kp I              &kp O                &kp P                      &kp BSLH
 &kp ESC     &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp RG(RC(SPACE))  &mo 4    &kp LEFT_GUI      &kp RIGHT_GUI  &mo 5      &kp CAPSLOCK             &kp H   &hm RIGHT_GUI J   &hm RIGHT_ALT K    &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
 &kp LSHIFT  &kp Z             &kp X               &kp C           &kp V           &kp B                               &diw              &none                                              &kp N   &kp M             &kp COMMA          &kp DOT              &kp FSLH                   &kp RSHFT
-&mo 2       &none             &kp TAB             &kp ESCAPE      &kp GRAVE               &kp BSPC           &kp DEL  &none             &none          &kp ENTER  &tap_hold_layer 5 SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &mo 2
+&mo 2       &none             &kp ESCAPE          &kp TAB         &kp GRAVE               &kp BSPC           &kp DEL  &none             &none          &kp ENTER  &tap_hold_layer 5 SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &mo 2
             >;
         };
 
