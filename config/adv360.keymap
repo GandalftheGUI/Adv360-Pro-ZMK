@@ -48,9 +48,9 @@
             bindings = <
 &kp EQUAL   &kp N1            &kp N2              &kp N3          &kp N4          &kp N5  &kp SPACE                                                           &none                    &kp N6  &kp N7            &kp N8             &kp N9               &kp N0                     &kp MINUS
 &kp TAB     &kp Q             &kp W               &kp E           &kp R           &kp T   &kp LG(EQUAL)                                                       &none                    &kp Y   &kp U             &kp I              &kp O                &kp P                      &kp BSLH
-&kp ESC     &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp LG(MINUS)  &mo 4    &kp LEFT_GUI      &kp RIGHT_GUI  &mo 5      &kp CAPSLOCK             &kp H   &hm RIGHT_GUI J   &hm RIGHT_ALT K    &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
+&kp ESC     &hm LEFT_SHIFT A  &hm LEFT_CONTROL S  &hm LEFT_ALT D  &hm LEFT_GUI F  &kp G   &kp LG(MINUS)  &mo 5    &kp LEFT_GUI      &kp RIGHT_GUI  &mo 6      &kp CAPSLOCK             &kp H   &hm RIGHT_GUI J   &hm RIGHT_ALT K    &hm RIGHT_CONTROL L  &hm RIGHT_SHIFT SEMICOLON  &kp SQT
 &kp LSHIFT  &kp Z             &kp X               &kp C           &kp V           &kp B                           &diw              &none                                              &kp N   &kp M             &kp COMMA          &kp DOT              &kp FSLH                   &kp RSHFT
-&mo 2       &none             &kp LG(LC(SPACE))   &kp TAB         &kp GRAVE               &kp BSPC       &kp DEL  &none             &none          &kp ENTER  &tap_hold_layer 5 SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &mo 2
+&mo 2       &none             &kp LG(LC(SPACE))   &kp TAB         &kp GRAVE               &kp BSPC       &kp DEL  &none             &none          &kp ENTER  &tap_hold_layer 6 SPACE          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET     &kp RIGHT_BRACKET          &mo 2
             >;
         };
 
@@ -88,11 +88,11 @@
 
         left_mod {
             bindings = <
-&trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F11  &bl BL_TOG  &bootloader                                      &trans  &trans  &trans     &trans     &trans            &trans         &trans
-&trans          &trans                &trans                &trans            &trans   &trans      &trans                                           &trans  &trans  &trans     &trans     &trans            &trans         &trans
-&studio_unlock  &trans                &trans                &trans            &trans   &trans      &trans       &none   &trans      &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &kp BACKSLASH  &trans
-&trans          &trans                &trans                &trans            &trans   &trans                           &trans      &trans                  &trans  &trans     &trans     &trans            &trans         &trans
-&trans          &trans                &trans                &trans            &trans               &trans       &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans            &trans         &trans
+&trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F11          &bl BL_TOG  &bootloader                                      &trans  &trans  &trans     &trans     &trans            &trans         &trans
+&trans          &trans                &trans                &kp UP_ARROW      &trans           &trans      &trans                                           &trans  &trans  &trans     &trans     &trans            &trans         &trans
+&studio_unlock  &trans                &kp LEFT_ARROW        &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans      &trans       &none   &trans      &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &kp BACKSLASH  &trans
+&trans          &trans                &trans                &trans            &trans           &trans                           &trans      &trans                  &trans  &trans     &trans     &trans            &trans         &trans
+&trans          &trans                &trans                &trans            &trans                       &trans       &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans            &trans         &trans
             >;
         };
 
