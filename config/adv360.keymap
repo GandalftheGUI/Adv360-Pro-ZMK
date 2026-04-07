@@ -88,21 +88,21 @@
 
         left_mod {
             bindings = <
-&trans          &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp LC(UP_ARROW)  &kp F11          &bl BL_TOG  &bootloader                                      &trans  &trans  &trans     &trans     &trans            &trans         &trans
-&trans          &trans                &trans                &kp UP_ARROW      &trans           &trans      &trans                                           &trans  &trans  &trans     &trans     &trans            &trans         &trans
-&studio_unlock  &trans                &kp LEFT_ARROW        &kp DOWN_ARROW    &kp RIGHT_ARROW  &trans      &trans       &none   &trans      &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &kp BACKSLASH  &trans
-&trans          &trans                &kp SPACE             &kp LG(MINUS)     &kp LG(EQUAL)    &trans                           &trans      &trans                  &trans  &trans     &trans     &trans            &trans         &trans
-&trans          &trans                &trans                &trans            &trans                       &trans       &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans            &trans         &trans
+&kp C_BRI_DN    &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PP        &kp C_NEXT       &trans  &bootloader                                      &trans  &trans  &trans     &trans     &trans            &trans         &trans
+&trans          &trans                &trans          &kp UP_ARROW    &trans           &trans  &trans                                           &trans  &trans  &trans     &trans     &trans            &trans         &trans
+&studio_unlock  &trans                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans       &none   &trans      &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &kp BACKSLASH  &trans
+&trans          &trans                &kp SPACE       &kp LG(MINUS)   &kp LG(EQUAL)    &trans                       &trans      &trans                  &trans  &trans     &trans     &trans            &trans         &trans
+&trans          &trans                &trans          &trans          &trans                   &trans       &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans            &trans         &trans
             >;
         };
 
         right_mod {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &bootloader          &kp C_PREVIOUS  &kp C_PP        &kp C_NEXT    &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans               &trans          &trans          &kp UP_ARROW  &trans      &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &none   &kp LG(LA(C_EJECT))  &trans          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT   &trans        &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                               &trans          &trans          &trans        &trans      &trans        &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                               &trans          &trans        &trans      &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &bootloader  &kp C_MUTE  &kp C_VOL_DN          &kp C_VOL_UP           &kp C_MUTE  &bl BL_TOG  &kp RA(LG(C_EJECT))
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans       &trans      &trans                &kp UP_ARROW           &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &none   &trans       &trans      &kp LEFT_ARROW        &kp DOWN               &kp RIGHT   &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans      &trans                &trans                 &trans      &trans      &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &trans      &trans
             >;
         };
     };
