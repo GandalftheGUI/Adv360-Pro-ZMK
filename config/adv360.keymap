@@ -88,11 +88,11 @@
 
         left_mod {
             bindings = <
-&kp C_BRI_DN    &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PP        &kp C_NEXT       &trans  &bootloader                                      &trans  &trans  &trans     &trans     &trans            &trans         &trans
-&trans          &trans                &trans          &kp UP_ARROW    &trans           &trans  &trans                                           &trans  &trans  &trans     &trans     &trans            &trans         &trans
-&studio_unlock  &trans                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans       &none   &trans      &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &kp BACKSLASH  &trans
-&trans          &trans                &kp SPACE       &kp LG(MINUS)   &kp LG(EQUAL)    &trans                       &trans      &trans                  &trans  &trans     &trans     &trans            &trans         &trans
-&trans          &trans                &trans          &trans          &trans                   &trans       &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans            &trans         &trans
+&kp C_BRI_DN    &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PP        &kp C_NEXT       &kp F11  &bootloader                                      &trans  &trans  &trans     &trans     &trans            &trans         &trans
+&trans          &trans                &trans          &kp UP_ARROW    &trans           &trans   &trans                                           &trans  &trans  &trans     &trans     &trans            &trans         &trans
+&studio_unlock  &trans                &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans       &none   &trans      &trans  &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp SINGLE_QUOTE  &kp BACKSLASH  &trans
+&trans          &trans                &kp SPACE       &kp LG(MINUS)   &kp LG(EQUAL)    &trans                        &trans      &trans                  &trans  &trans     &trans     &trans            &trans         &trans
+&trans          &trans                &trans          &trans          &trans                    &trans       &trans  &trans      &trans  &trans  &trans          &trans     &trans     &trans            &trans         &trans
             >;
         };
 
